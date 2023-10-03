@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suncerie's Introduction</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Introduction</h1>
+    <p>
+        My name is <span id="firstName"></span><span id="lastName"></span>. I have been at SCC for <span id="yearsOfStudy"></span>
+        and plan to <span id="goal"></span> after completing my courses.
+    </p>
+    <script>
+        document.getElementById('firstName').innerHTML = firstName;
+        document.getElementById('lastName').innerHTML = lastName;
+        document.getElementById('yearsOfStudy').innerHTML = yearsOfStudy;
+        document.getElementById('goal').innerHTML = goal;
+    </script>
+</body>
+</html>

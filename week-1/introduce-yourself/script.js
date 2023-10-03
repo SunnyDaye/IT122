@@ -1,0 +1,1 @@
+firstName = 'Suncerie', lastName = 'Daye', yearsOfStudy = 'half a year', goal = 'pursue my bachelors in Computer Science';
